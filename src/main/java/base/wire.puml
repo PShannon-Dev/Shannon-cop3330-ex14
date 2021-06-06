@@ -1,0 +1,20 @@
+@startuml
+
+class App
+{
+    use get and setter
+    input()
+}
+
+App <|-- TaxCalc
+
+class TaxCalc
+{
+    + orderamount
+    + state
+    + subtotal
+    + tax
+    + total
+    calc()
+}
+@enduml
