@@ -1,7 +1,10 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 14 Solution
+ *  Copyright 2021 Paul Shannon
+ */
 package base;
 
 import java.math.BigDecimal;
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class App {
